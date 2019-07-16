@@ -1,0 +1,87 @@
+ID                   Definition
+K01116               PLCG1; phosphatidylinositol phospholipase C, gamma-1 [EC:3.1.4.11]
+K01348               PLAU; urokinase plasminogen activator [EC:3.4.21.73]
+K02161               BCL2; apoptosis regulator BCL-2
+K02162               BCL2A1; hematopoietic BCL2-related protein A1
+K02580               NFKB1; nuclear factor NF-kappa-B p105 subunit
+K02861               RIPK1, RIP1; receptor-interacting serine/threonine-protein kinase 1 [EC:2.7.11.1]
+K03097               CSNK2A; casein kinase II subunit alpha [EC:2.7.11.1]
+K03115               CSNK2B; casein kinase II subunit beta
+K03156               TNFA; tumor necrosis factor superfamily, member 2
+K03157               LTB, TNFC; lymphotoxin beta (TNF superfamily, member 3)
+K03158               TNFRSF1A, TNFR1; tumor necrosis factor receptor superfamily member 1A
+K03159               TNFRSF3, LTBR; lymphotoxin beta receptor TNFR superfamily member 3
+K03160               TNFRSF5, CD40; tumor necrosis factor receptor superfamily member 5
+K03161               TNFSF5, CD40L; tumor necrosis factor ligand superfamily member 5
+K03171               TRADD; tumor necrosis factor receptor type 1-associated DEATH domain protein
+K03172               TRAF1; TNF receptor-associated factor 1
+K03173               TRAF2; TNF receptor-associated factor 2
+K03174               TRAF3; TNF receptor-associated factor 3
+K03175               TRAF6; TNF receptor-associated factor 6
+K04386               IL1R1; interleukin 1 receptor type I
+K04391               CD14; CD14 antigen
+K04403               MAP3K7IP1, TAB1; TAK1-binding protein 1
+K04404               MAP3K7IP2, TAB2; TAK1-binding protein 2
+K04427               MAP3K7, TAK1; mitogen-activated protein kinase kinase kinase 7 [EC:2.7.11.25]
+K04466               MAP3K14, NIK; mitogen-activated protein kinase kinase kinase 14 [EC:2.7.11.25]
+K04467               IKBKA, IKKA, CHUK; inhibitor of nuclear factor kappa-B kinase subunit alpha [EC:2.7.11.10]
+K04469               NFKB2; nuclear factor of kappa light polypeptide gene enhancer in B-cells 2
+K04519               IL1B; interleukin 1 beta
+K04570               BCL2L1, bcl-xL; BCL2-like 1 (apoptosis regulator Bcl-X)
+K04724               CFLAR, FLIP; CASP8 and FADD-like apoptosis regulator
+K04725               XIAP, BIRC4; E3 ubiquitin-protein ligase XIAP
+K04728               ATM, TEL1; ataxia telangiectasia mutated family protein [EC:2.7.11.1]
+K04729               MYD88; myeloid differentiation primary response protein MyD88
+K04730               IRAK1; interleukin-1 receptor-associated kinase 1 [EC:2.7.11.1]
+K04733               IRAK4; interleukin-1 receptor-associated kinase 4 [EC:2.7.11.1]
+K04734               NFKBIA; NF-kappa-B inhibitor alpha
+K04735               RELA; transcription factor p65
+K05147               TNFRSF11A, RANK; tumor necrosis factor receptor superfamily member 11A
+K05151               TNFRSF13C, BAFFR; tumor necrosis factor receptor superfamily member 13C
+K05399               LBP; lipopolysaccharide-binding protein
+K05400               LY96, MD-2; lymphocyte antigen 96
+K05403               TIRAP; toll-interleukin 1 receptor (TIR) domain-containing adaptor protein
+K05409               TIRP, TRAM; TRIF-related adaptor molecule
+K05468               LTA, TNFB; lymphotoxin alpha (TNF superfamily, member 1)
+K05473               TNFSF11, RANKL; tumor necrosis factor ligand superfamily member 11
+K05476               TNFSF13B, TNFSF20; tumor necrosis factor ligand superfamily member 13B
+K05477               TNFSF14, LIGHT; tumor necrosis factor ligand superfamily member 14
+K05512               CCL19, ELC; C-C motif chemokine 19
+K05842               TRIF; toll-like receptor adapter molecule 1
+K05854               LYN; tyrosine-protein kinase Lyn [EC:2.7.10.2]
+K05855               SYK; spleen tyrosine kinase [EC:2.7.10.2]
+K05856               LCK; lymphocyte cell-specific protein tyrosine kinase [EC:2.7.10.2]
+K05859               PLCG2; phosphatidylinositol phospholipase C, gamma-2 [EC:3.1.4.11]
+K06490               ICAM1; intercellular adhesion molecule 1
+K06527               VCAM1; vascular cell adhesion molecule 1
+K06856               IGH; immunoglobulin heavy chain
+K07209               IKBKB, IKKB; inhibitor of nuclear factor kappa-B kinase subunit beta [EC:2.7.11.10]
+K07210               IKBKG, IKKG, NEMO; inhibitor of nuclear factor kappa-B kinase subunit gamma
+K07360               ZAP70; tyrosine-protein kinase ZAP-70 [EC:2.7.10.2]
+K07362               LAT; linker for activation of T cells
+K07367               CARD11; caspase recruitment domain-containing protein 11
+K07368               BCL10; B-cell CLL/lymphoma 10
+K07369               MALT1; mucosa-associated lymphoid tissue lymphoma translocation protein 1 [EC:3.4.22.-]
+K07370               BTK; Bruton agammaglobulinemia tyrosine kinase [EC:2.7.10.2]
+K07371               BLNK; B-cell linker protein
+K09253               RELB; transcription factor RelB
+K09849               TRAF5; TNF receptor-associated factor 5
+K10030               IL8, CXCL8; interleukin 8
+K10031               CXCL12; C-X-C motif chemokine 12
+K10130               LRDD, PIDD; leucine-rich repeats and death domain-containing protein
+K10160               TLR4; toll-like receptor 4
+K10577               UBE2I, UBC9; ubiquitin-conjugating enzyme E2 I [EC:6.3.2.19]
+K10652               TRIM25, EFP; tripartite motif-containing protein 25 [EC:6.3.2.19]
+K10784               TRAV; T cell receptor alpha chain V region
+K10785               TRBV; T-cell receptor beta chain V region
+K11859               TNFAIP3, A20, OTUD7C; tumor necrosis factor, alpha-induced protein 3 [EC:3.4.19.12 6.3.2.19]
+K11987               PTGS2, COX2; prostaglandin-endoperoxide synthase 2 [EC:1.14.99.1]
+K12646               DDX58, RIG-I; ATP-dependent RNA helicase DDX58 [EC:3.6.3.14]
+K12793               MAP3K7IP3, TAB3; TAK1-binding protein 3
+K12964               CCL4; C-C motif chemokine 4
+K16060               BIRC2_3; baculoviral IAP repeat-containing protein 2/3
+K16062               CCL21, SLC; C-C motif chemokine 21
+K16065               PIAS4; E3 SUMO-protein ligase PIAS4 [EC:6.3.2.-]
+K16072               ERC1; ELKS/RAB6-interacting/CAST family member 1
+K16595               CCL13; C-C motif chemokine 13
+K18052               PRKCQ; novel protein kinase C theta type [EC:2.7.11.13]

@@ -1,0 +1,16 @@
+data_loading: FALSE
+cache_loading: TRUE
+munging: TRUE
+logging: FALSE
+load_libraries: TRUE
+libraries: Biobase, genefu, reshape2, survival, ggplot2, xtable, GGally, corrplot, plyr, dplyr, survplot, genefilter, beadarray, illuminaHumanv3.db, grid
+as_factors: TRUE
+recursive_loading: FALSE
+version: 0.9.0
+attach_internal_libraries: FALSE
+data_loading_header: TRUE
+data_ignore:
+logging_level: INFO
+tables_type: data_frame
+cache_loaded_data: FALSE
+sticky_variables: NONE

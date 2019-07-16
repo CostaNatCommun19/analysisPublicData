@@ -1,0 +1,46 @@
+variableName	labelDescription	type	RClass	controlledTermsOrFormat	fromMetabricVariable
+siteid	Study Site (tissue bank) Identifier	Char	factor	1, 2, 3, 4, 5	Site
+subjid	Subject Identifier for the Study	Char	character		
+usampid	Unique Sample Identifier	Char	character		METABRIC_ID
+age	Age at Reference Date	Num 	numeric		age_at_diagnosis
+ageu	Age Units	Char	character	decades, years, months, days	
+agerfdt	Reference Date for Age	Char	character	"ISO 8601, variable name, or free text (e.g. ""Diagnosis"")"	
+menopstatimp	Imputed menopausal status	Char	factor	pre, post	menopausal_status_inferred
+tumsize	Tumor Size	Num 	numeric		size
+tumsizeu	Tumor Size Units	Char	character	cm, mm	
+lnnr	Number of positive lymph nodes	Num 	numeric		lymph_node_positive
+lnstat	Lymph Node Status	Char	factor	LN-, LN+	lymph_node_positive
+lnremoved	Number of removed lymph nodes	Num 	numeric		lymph_nodes_removed
+stage	? 	Char	factor	0, 1, 2, 3, 4	stage
+tumgr	Nottingham (Elston-Ellis) Score	Char	factor	1 = Nottingham (Elston-Ellis) Score 3 to 5, 2 = Nottingham Score 6 to 7, 3 = Nottingham Score 8 to 9	grade
+npi	? 	Num 	numeric		NPI
+erstat	Estrogen Receptor Status	Char	factor	ER-, ER+	ER_IHC_status
+ermth	ER Method (erstat)	Char	character	IHC	
+erstatimp	Imputed ER status from expression data	Char	factor	ER-, ER+	ER.Expr
+prstatimp	Imputed PR status from expression data	Char	factor	PR-, PR+	PR.Expr
+her2stat	HER2 Clinical Status based on DNA copy-number changes	Char	factor	HER2-, HER2+	HER2_SNP6_state
+her2mth	HER2 Method (her2stat)	Char	character	IHC, FISH, DNA copy-number changes	
+her2val	HER2 IHC Value	Num 	numeric	0, 1, 2, 3	HER2_IHC_status
+her2statimp	Imputed HER2 status from expression data	Char	factor	HER2-, HER2+	HER2.Expr
+cellularity	Cellularity	Char	Factor	high, moderate, low	cellularity
+histoltype	Histological type	Char	factor	DCIS = Ductal Carcinoma In Situ; IDC = invasive ductal carcinoma; IDC-MED = IDC medullary; IDC-MUC = IDC mucinous; IDC-TUB IDC tubular; ILC = invasive lobular carcinoma; INVASIVE TUMOUR MIXED NST = NST stands for 'no special type' and therefore this term probably is a grab bag for tumors of mixed pathologic features. OTHER = grab bag term, as previous; OTHER INVASIVE = grab bag term; PHYL = phyllodes	histological_type
+p53stat	p53 mutation status	Char	Factor	p53mut, p53wt	P53_mutation_status
+p53muttype	p53 mutation type	Char	Factor	FRAMESHIFT; MISSENSE; MISSENSE:TRUNCATING;TRUNCATING	P53_mutation_type
+p53mutdetails	p53 mutation details	Char	character		P53_mutation_details
+subtype	Molecular Intrinsic Subtype	Char	factor	Luminal A, Luminal B, HER2-enriched, Basal-like, Normal Breast-like, No subtype	Pam50Subtype
+subtypecd	Molecular Intrinsic Subtype Code	Char	factor	LA, LB, H2, BL, NBL, none	Pam50Subtype
+subtypemth	Molecular Intrinsic Subtype Method	Char	character		
+intclust	Integrative Cluster membership as per Metabric, Curtis et al.	Char	factor	1, 2, 3, 4, 5, 6, 7, 8, 9, 10	IntClustMemb
+genius	Gene Expression Prognostic Index Using Subtypes	Char	factor	ER-/HER2-; ER+/HER2- High Prolif; ER+/HER2- Low Prolif; HER2+	Genefu
+adjtrt	Adjuvant treatment	Char	factor	CT; CT/HT; CT/HT/RT; CT/RT; HT; HT/RT; NONE; RT	Treatment
+survdthtm	Elapsed Time until Death or Censoring	Num 	numeric		T
+survdthtmu	Units of Elapsed Time until Death or Censoring	Char	character	decades, years, months, days	
+survdthrfdt	Reference Date for Elapsed Time until Death or Censoring	Char	character		
+dthcd	Death Code	Char	factor	BC, Other	last_follow_up_status
+dthstat	Death from Any Reason	Log	logical	FALSE, TRUE	last_follow_up_status
+dthbcstat	Death due to Breast Cancer (unknown cause of death → NA/excluded)	Log	logical	FALSE, TRUE	last_follow_up_status
+dthbcstat2	Death due to Breast Cancer (unknown cause of death → FALSE/censored)	Log	logical	FALSE, TRUE	last_follow_up_status
+dthbcstat3	Death due to Breast Cancer (unknown cause of death → TRUE/event)	Log	logical	FALSE, TRUE	last_follow_up_status
+mbgroup	Metabric risk groups?	Char	factor	1, 2, 3, 4	group
+tumnorm	Sample type (tumor sample or tumor-adjacent normal tissue)	Char	factor	Tumor, Normal	
+set	Sampling set (Metabric discovery or validation set)	Char	factor	Discovery, Validation	
